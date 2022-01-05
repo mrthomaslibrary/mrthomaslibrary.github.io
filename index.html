@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mr Thomas's Library of Knowlege</title>
+        <style>
+            body {
+                padding-left: 40%;
+                padding-right: 40%;
+                margin-left: 0%;
+                margin-right: 0%;
+                background-color: #f58442;
+                border: solid #db5609 10px;
+            }
+            h1 {
+                text-align: center;
+            }
+            article.game {
+                text-align: center;
+                background-color: #d1b7a7;     
+                border: solid balck 5px;
+                padding-bottom: 5%;
+                margin-bottom: 5%;           
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Mr Thomas's Library of Knowlege</h1>
+
+        <article class="game">
+            <h3>Space Invaders</h3>
+            <a href="spaceInvaders.html">Space Invaders</a>
+            <p>An [redacted] and Old [redacted] for the Atari</p>
+        </article>
+
+        <article class="game">
+            <h3>Astroids</h3>
+            <a href="astroids.html">Astroids</a>
+            <p>Another [redacted] from the Old days</p>
+        </article>
+
+        <article class="game">
+            <h3>Vault</h3>
+            <input type="text" id="vaultPass1">
+            <input type="button" id="vaultButton1" value="Submit" onclick="send()">
+        </article>
+
+        <!--<script>
+            function send()
+            {
+                if (document.getElementById("vaultPass1").vaule === "food")
+                {
+                    loadPage("vault.html");
+                    console.log(document.getElementById("vaultPass1").value);
+                }
+                else
+                {
+                    document.getElementById("vaultButton1").value = "[invalid input]";
+                }
+            }
+            function loadPage(url)
+            {
+                window.location.replace(url);
+            }
+        </script>-->
+
+        <article class="game">
+            <h3>Pacman</h3>
+            <a href="yellowguy.html">Pacman</a>
+            <p>One of the greatest classic [redacted] from the Old days</p>
+        </article>
+
+        <article class="game">
+            <h3>Tetris</h3>
+            <a href="tetris.html">Tetris</a>
+            <p>One of the greatest classic [redacted] from the Old days</p>
+        </article>
+
+    </body>
+</html>
