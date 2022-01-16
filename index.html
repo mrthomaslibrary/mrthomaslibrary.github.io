@@ -41,28 +41,22 @@
 
         <article class="game">
             <h3>Vault</h3>
-            <input type="text" id="vaultPass1">
-            <input type="button" id="vaultButton1" value="Submit" onclick="send()">
+            <input type="button" id="vaultButton1" value="Enter" onclick="vault()">
         </article>
 
-        <!--<script>
-            function send()
-            {
-                if (document.getElementById("vaultPass1").vaule === "food")
-                {
-                    loadPage("vault.html");
-                    console.log(document.getElementById("vaultPass1").value);
-                }
-                else
-                {
-                    document.getElementById("vaultButton1").value = "[invalid input]";
-                }
-            }
-            function loadPage(url)
-            {
-                window.location.replace(url);
-            }
-        </script>-->
+        <SCRIPT language="JavaScript">
+
+        function vault()
+        {
+            var password; 
+            var pass1="69420"; 
+            password=prompt('Enter Password',' '); 
+            if (password==pass1) 
+            window.location="https://mrthomaslibrary.github.io/blog"; 
+            else { alert("Password is incorrect")
+            } 
+        }
+            </SCRIPT>
 
         <article class="game">
             <h3>Pacman</h3>
